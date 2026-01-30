@@ -1,4 +1,3 @@
-import BlurText from "./Animations/BlurText";
 import DecayCard from './Animations/DecayCard';
 import Photo8 from "../assets/Photo13.jpeg"
 import ScrollVelocity from "./Animations/ScrollVelocity"
@@ -60,15 +59,7 @@ export default function Home() {
           </div>
          
         </div>
-        <div className="BlurText">
-            <BlurText
-            text="This Portofolio Website Is Made Using ReactJS, Vite, TailwindCSS"
-            delay={300}
-            animateBy="words"
-            direction="top"
-            className="lg:text-xl sm:text-xs justify-center mt-6 opacity-50 font-roboto"
-            />
-        </div>
+
 
         <div className="pb-20 w-screen lg:w-6xl md:w-xl ">
             <ScrollVelocity

@@ -1,7 +1,7 @@
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
-import Education from "./components/Education";
+import Footer from "./components/Footer";
 import AnimatedContent from "./components/Animations/AnimatedContents";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
@@ -44,9 +44,8 @@ export default function App() {
         <Home />
         <About />
         <Skills />
-        
-        
-          <Contact />
+        <Contact />
+        <Footer />
         
       </div>
     </div>
